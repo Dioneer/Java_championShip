@@ -1,11 +1,11 @@
 package main.seminar2;
 
-public class Cat extends Animal implements Runner{
+public class Bird extends Animal implements Runner{
     private final String name;
     private final int maxJump;
     private final int maxRun;
 
-    public Cat(String name, int maxJump, int maxRun) {
+    public Bird(String name, int maxJump, int maxRun) {
         this.name = name;
         this.maxJump = maxJump;
         this.maxRun = maxRun;
